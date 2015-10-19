@@ -1,0 +1,69 @@
+t2html
+------------------------------------------
+
+Text to HTML converter implemented in Perl
+
+Convert text file into HTML 4.01/CSS2 format. The is written in
+natural white paper format by using standard headings and indented
+paragraphs at standard tab position column 8. The text can *contain*
+_ASCII_ =markup= `tokens'. Embedding HTML is also possible via INCLUDE
+directives. This utility predates similar Python-based asciidoc.
+A showcase: http://pm-doc.sourceforge.net/doc/"
+
+Runtime requirements:
+  Perl
+
+Build requirements:
+  Perl
+
+Canonical homepage:
+  https://github.com/jaalto/project--perl-text2html
+  https://packages.debian.org/source/unstable/t2html
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Jari Aalto <jari.aalto@cante.net>
+  Bugs: https://github.com/jaalto/project--perl-text2html/issues
+
+License:
+  GPL-2+
+
+Language:
+  Perl
+
+------------------------------------------
+
+Build instructions:
+  unpack t2html-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./t2html*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 2015.1019+git1a32869-1 -----
+- New upstream release 2015-10-19 Jari Aalto
+
+----- version 2015.1019+git1a32869-1 -----
+- Initial release 2015-10-19 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2015 Jari Aalto; Licensed under GPL v2 or later
