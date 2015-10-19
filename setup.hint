@@ -6,3 +6,4 @@ ldesc: "Convert text file into HTML 4.01/CSS2 format. The is written in
  directives. This utility predates similar Python-based asciidoc.
  A showcase: http://pm-doc.sourceforge.net/doc/"
 category: Utils Perl
+requires: Perl
